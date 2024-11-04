@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenication Page</title>
+    <!--We can try to avoid doing heavy coding in these
+        HTML pages and separating code into modules.
+        That way it is easier to reuse code and debug problem areas.-->
+    <!-- Link to CSS modules -->
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- General styles -->
+    <link rel="stylesheet" href="CSS/layout.css"> <!-- Layout-specific styles -->
+    <link rel="stylesheet" href="CSS/AuthenticationForm.css"> <!-- Layout-specific styles -->
+    <!-- Add more CSS files as needed -->
+
+</head>
+<body>
+    <!-- Include HTML modules -->
+    <!-- For example, if you have header.html, footer.html, etc. -->
+
+    <div class="login-container">
+        <h2>Employee Login</h2>
+        <form id="login-form">
+            <input type="text" id="employee-id" name="employee-id" placeholder="Employee ID" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Link to JavaScript modules -->
+    <script src="Java/script1.js"></script> <!-- Change this name to the name of the module -->
+    <script src="Java/script2.js"></script> <!-- Additional scripts -->
+    <!-- Add more JavaScript files as needed -->
+
+</body>
+</html>
